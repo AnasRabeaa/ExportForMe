@@ -1,5 +1,5 @@
 /* Start Global Rules */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;400;600&display=swap');
 
 * {
     -webkit-box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 :root {
-    --color-dark-mode: #11111b;
+    --color-dark-mode: #ddd;
 
 }
 
@@ -26,9 +26,10 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     width: 100%;
     overflow-x: hidden;
@@ -46,10 +47,18 @@ ul {
 }
 
 h3 {
-    margin: 20px auto;
+    margin: 30px auto;
     color: #11111b !important;
 }
 
+.row {
+    margin-top: 0;
+    padding: 0.5rem;
+}
+
+form{
+    padding: 1rem;
+}
 
 label {
     color: #fff;
@@ -119,6 +128,8 @@ input[type=file]::file-selector-button:hover {
 
 .button {
     width: 100%;
+    font-size: 20px;
+    font-weight: 600;
 }
 .button:hover {
     background: #11111b;
