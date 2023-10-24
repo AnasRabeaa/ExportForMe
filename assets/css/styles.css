@@ -265,7 +265,7 @@ body.dark-theme {
 }
 
 @media(max-width:768px) {
-<<<<<<< HEAD
+
 .popup-content {
     margin: 40% auto;
   }
@@ -273,12 +273,7 @@ body.dark-theme {
     width: 100px;
     height: 100px;
   }
-=======
-.page-links img {
-  width: 100px;
-  height: 100px;
-}
->>>>>>> e77eb4cfb6d17346cd5cf10ca4f8722ad62c61bd
+
 }
 
 .center {
