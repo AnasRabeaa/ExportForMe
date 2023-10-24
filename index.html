@@ -45,7 +45,7 @@
             <li class="nav__item">
               <a href="#popular" class="nav__link">
                 <i class="bx bx-building-house"></i>
-                <span>Category</span>
+                <span>services</span>
               </a>
             </li>
 
@@ -65,7 +65,7 @@
 
             <li class="nav__item">
               <a href="#" class="nav__link">
-                <i class='bx bxl-whatsapp' ></i>
+                <i class="bx bxl-whatsapp"></i>
                 <span></span>
               </a>
             </li>
@@ -76,7 +76,7 @@
         <i class="bx bx-moon change-theme" id="theme-button"></i>
 
         <a href="#" class="button nav__button">
-          <i class='bx bxl-whatsapp' ></i>
+          <i class="bx bxl-whatsapp"></i>
           WhatsApp
         </a>
       </nav>
@@ -84,6 +84,24 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
+      <!-- Page Selection Popup -->
+      <div id="page-selection-popup" class="popup">
+        <div class="popup-content">
+          <span class="close-button" onclick="closePopup()">&times;</span>
+          <h1 class="section__title center">Welcome to our website</h1>
+          <h2 class="section__subtitle center">
+            Choose the type to fill out the form
+          </h2>
+          <div class="page-links">
+            <a href="./extract.html"><img src="assets/img/5.jpg" alt="صفحة 3" /></a>
+            <a href="./import.html"><img src="assets/img/4.jpg" alt="صفحة 3" /></a>
+            <a href="./export.html"><img src="assets/img/3.jpg" alt="صفحة 3" /></a>
+            <a href="./Insurancecompanies.html"><img src="assets/img/1.jpg" alt="صفحة 3" /></a>
+            <a href="./shippingcompany.html"><img src="assets/img/2.jpg" alt="صفحة 3" /></a>
+          </div>
+        </div>
+      </div>
+
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
         <div class="vegas-overlay"></div>
@@ -96,12 +114,13 @@
             </h1>
 
             <p class="home__description">
-              We are a leading company in the market as we provide high quality import & export services
-              to our customers all over the world.  China Or USA Or Turkey, Start Now ..
+              We are a leading company in the market as we provide high quality
+              import & export services to our customers all over the world.
+              China Or USA Or Turkey, Start Now ..
             </p>
 
             <form action="" class="home__search">
-              <i class='bx bxs-search' ></i>
+              <i class="bx bxs-search"></i>
               <input
                 type="search"
                 placeholder="search..."
@@ -116,7 +135,7 @@
               <div>
                 <h1 class="home_value-number">9K <span>+</span></h1>
                 <span class="home__value_description">
-                  Customs  <br />
+                  Customs <br />
                   certificate
                 </span>
               </div>
@@ -156,86 +175,56 @@
           <div class="popular__container swiper">
             <div class="swiper-wrapper">
               <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-1.jpg"
-                  alt=""
-                  class="popular__img"
-                />
+                <img src="assets/img/1.jpg" alt="" class="popular__img" />
                 <div class="popular__date">
-                  <span class="section__subtitle">Logistics, Analytics</span>
-                  <h3 class="popular-title">Warehouse inventory</h3>
+                  <span class="section__subtitle">Marine insurance companies</span>
+                  <!-- <h3 class="popular-title">form</h3> -->
                   <p class="popular__description">
-                    <a href="">READ MORE</a>
+                    <a href="./Insurancecompanies.html">Register Now</a>
                   </p>
                 </div>
               </article>
               <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-2.jpg"
-                  alt=""
-                  class="popular__img"
-                />
+                <img src="assets/img/4.jpg" alt="" class="popular__img" />
                 <div class="popular__date">
-                  <span class="section__subtitle">Warehousing , Distrbution</span>
-                  <h3 class="popular-title">Minimize Manufacturing</h3>
+                  <span class="section__subtitle"
+                    >Importer Form</span
+                  >
+                  <!-- <h3 class="popular-title">Minimize Manufacturing</h3> -->
                   <p class="popular__description">
-                    <a href="">READ MORE</a>
+                    <a href="./import.html">Register Now</a>
                   </p>
                 </div>
               </article>
               <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-3.jpg"
-                  alt=""
-                  class="popular__img"
-                />
+                <img src="assets/img/3.jpg" alt="" class="popular__img" />
                 <div class="popular__date">
-                  <span class="section__subtitle">Logistics, Analytics</span>
-                  <h3 class="popular-title">Warehouse inventory</h3>
+                  <span class="section__subtitle">Exporter Form</span>
+                  <!-- <h3 class="popular-title">Warehouse inventory</h3> -->
                   <p class="popular__description">
-                    <a href="">READ MORE</a>
+                    <a href="./export.html">Register Now</a>
                   </p>
                 </div>
               </article>
               <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-4.jpg"
-                  alt=""
-                  class="popular__img"
-                />
+                <img src="assets/img/2.jpg" alt="" class="popular__img" />
                 <div class="popular__date">
-                  <span class="section__subtitle">Warehousing , Distrbution</span>
-                  <h3 class="popular-title">Warehouse inventory</h3>
+                  <span class="section__subtitle"
+                    >Shipping Company Form</span
+                  >
+                  <!-- <h3 class="popular-title">Warehouse inventory</h3> -->
                   <p class="popular__description">
-                    <a href="">READ MORE</a>
+                    <a href="./shippingcompany.html">Register Now</a>
                   </p>
                 </div>
               </article>
               <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-5.jpg"
-                  alt=""
-                  class="popular__img"
-                />
+                <img src="assets/img/5.jpg" alt="" class="popular__img" />
                 <div class="popular__date">
-                  <span class="section__subtitle">Logistics, Analytics</span>
-                  <h3 class="popular-title">Minimize Manufacturing</h3>
+                  <span class="section__subtitle">Extract Form</span>
+                  <!-- <h3 class="popular-title">Minimize Manufacturing</h3> -->
                   <p class="popular__description">
-                    <a href="">READ MORE</a>
-                  </p>
-                </div>
-              </article>
-              <article class="popular__card swiper-slide">
-                <img
-                  src="assets/img/project-6.jpg"
-                  alt=""
-                  class="popular__img"
-                />
-                <div class="popular__date">
-                  <span class="section__subtitle">Warehousing , Distrbution</span>
-                  <h3 class="popular-title">Minimize Manufacturing</h3>
-                  <p class="popular__description">
-                    <a href="">READ MORE</a>
+                    <a href="./extract.html">Register Now</a>
                   </p>
                 </div>
               </article>
@@ -262,9 +251,7 @@
           <div class="value__content">
             <div class="value__date">
               <span class="section__subtitle">About Us</span>
-              <h2 class="section__title">
-                WHY CHOOSE US <span>?</span>
-              </h2>
+              <h2 class="section__title">WHY CHOOSE US <span>?</span></h2>
               <p class="value__description">
                 We always ready to help by providing the best service for you.
                 We believe a good place to live can make your life better.
@@ -273,10 +260,8 @@
             <div class="value__accordion">
               <div class="value__accordion-item">
                 <header class="value__accordion-header">
-                  <i class='bx bxs-check-shield value__accordion-icon'></i>
-                  <h3 class="value__accordion-title">
-                    WE ARE TRUSTED
-                  </h3>
+                  <i class="bx bxs-check-shield value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">WE ARE TRUSTED</h3>
                   <div class="value__accordion-arrow">
                     <i class="bx bxs-down-arrow"></i>
                   </div>
@@ -292,10 +277,8 @@
               </div>
               <div class="value__accordion-item">
                 <header class="value__accordion-header">
-                  <i class='bx bxs-lock value__accordion-icon'></i>
-                  <h3 class="value__accordion-title">
-                    THE BEST SECURITY
-                  </h3>
+                  <i class="bx bxs-lock value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">THE BEST SECURITY</h3>
                   <div class="value__accordion-arrow">
                     <i class="bx bxs-down-arrow"></i>
                   </div>
@@ -311,10 +294,8 @@
               </div>
               <div class="value__accordion-item">
                 <header class="value__accordion-header">
-                  <i class='bx bxs-like value__accordion-icon'></i>
-                  <h3 class="value__accordion-title">
-                    100 % GUARANTEE
-                  </h3>
+                  <i class="bx bxs-like value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">100 % GUARANTEE</h3>
                   <div class="value__accordion-arrow">
                     <i class="bx bxs-down-arrow"></i>
                   </div>
@@ -330,7 +311,7 @@
               </div>
               <div class="value__accordion-item">
                 <header class="value__accordion-header">
-                  <i class='bx bx-current-location value__accordion-icon'></i>
+                  <i class="bx bx-current-location value__accordion-icon"></i>
                   <h3 class="value__accordion-title">QUICK LOCATION</h3>
                   <div class="value__accordion-arrow">
                     <i class="bx bxs-down-arrow"></i>
@@ -361,7 +342,7 @@
             autoplay
             class="video"
           ></video> -->
-          <img src="./assets/img/newsletter-banner.png" alt="">
+          <img src="./assets/img/newsletter-banner.png" alt="" />
           <p class="subscribe__description">
             Subscribe and find super attractive price quotes from us, Find your
             residence soon
@@ -381,77 +362,79 @@
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
         <div class="contact__container container grid">
-            <div class="contact__images">
-              <div class="contact__orbe"></div>
-              <div class="contact__img">
-                <img src="./assets/img/about-banner.jpg" alt="contact" />
-              </div>
-            </div>
-            <div class="contact__content">
-              <div class="contact_data">
-                <span class="section__subtitle">Contact Us</span>
-                <h2 class="section__title">Easy to Contact Us <span>.</span></h2>
-                <p class="contact__description">
-                  Is there a problem finding your dream home? Need a guide in
-                  buying first home? or need a consultation on residential issues?
-                  just contact us.
-                </p>
-              </div>
-
-              <div class="contact__card">
-                <div class="contact__card-box">
-                  <div class="contact__card-info">
-                    <i class="bx bxs-phone-call"></i>
-                    <div>
-                      <h3 class="contact__card-title">Mobile Phone</h3>
-                      <p class="contact__card-description">+201024330450</p>
-                    </div>
-                  </div>
-                  <a href="tel:+201016619444">
-                      <button class="button contact__card-button">Call Now</button>
-                  </a>
-                </div>
-                <div class="contact__card-box">
-                  <div class="contact__card-info">
-                    <i class="bx bxs-envelope"></i>
-                    <div>
-                      <h3 class="contact__card-title">Email</h3>
-                      <p class="contact__card-description">info@export4me.com</p>
-                    </div>
-                  </div>
-                  <a href="mailto:info@export4me.com">
-                      <button class="button contact__card-button">Send Email</button>
-                  </a>
-                </div>
-                <div class="contact__card-box">
-                    <div class="contact__card-info">
-                        <i class='bx bxl-facebook'></i>
-                        <div>
-                            <h3 class="contact__card-title">Facebok</h3>
-                            <p class="contact__card-description">export4me</p>
-                        </div>
-                    </div>
-                    <a href="">
-                        <button class="button contact__card-button">Follow Us</button>
-                    </a>
-                </div>
-                <div class="contact__card-box">
-                  <div class="contact__card-info">
-                    <i class='bx bxl-whatsapp' ></i>
-                    <div>
-                      <h3 class="contact__card-title">Whatsapp</h3>
-                      <p class="contact__card-description">Send Message</p>
-                    </div>
-                  </div>
-                  <a href="https://wa.me/+201024330450">
-                      <button class="button contact__card-button">
-                        Chat on Whatsapp
-                      </button>
-                      </a>
-                </div>
-            </div>
+          <div class="contact__images">
+            <div class="contact__orbe"></div>
+            <div class="contact__img">
+              <img src="./assets/img/about-banner.jpg" alt="contact" />
             </div>
           </div>
+          <div class="contact__content">
+            <div class="contact_data">
+              <span class="section__subtitle">Contact Us</span>
+              <h2 class="section__title">Easy to Contact Us <span>.</span></h2>
+              <p class="contact__description">
+                Is there a problem finding your dream home? Need a guide in
+                buying first home? or need a consultation on residential issues?
+                just contact us.
+              </p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-phone-call"></i>
+                  <div>
+                    <h3 class="contact__card-title">Mobile Phone</h3>
+                    <p class="contact__card-description">+201024330450</p>
+                  </div>
+                </div>
+                <a href="tel:+201016619444">
+                  <button class="button contact__card-button">Call Now</button>
+                </a>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-envelope"></i>
+                  <div>
+                    <h3 class="contact__card-title">Email</h3>
+                    <p class="contact__card-description">info@export4me.com</p>
+                  </div>
+                </div>
+                <a href="mailto:info@export4me.com">
+                  <button class="button contact__card-button">
+                    Send Email
+                  </button>
+                </a>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxl-facebook"></i>
+                  <div>
+                    <h3 class="contact__card-title">Facebok</h3>
+                    <p class="contact__card-description">export4me</p>
+                  </div>
+                </div>
+                <a href="">
+                  <button class="button contact__card-button">Follow Us</button>
+                </a>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxl-whatsapp"></i>
+                  <div>
+                    <h3 class="contact__card-title">Whatsapp</h3>
+                    <p class="contact__card-description">Send Message</p>
+                  </div>
+                </div>
+                <a href="https://wa.me/+201024330450">
+                  <button class="button contact__card-button">
+                    Chat on Whatsapp
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <iframe
             class="map"
@@ -488,8 +471,6 @@
           </form>
         </div>
       </section>
-
-
 
       <!-- client logo section starts -->
 
@@ -596,7 +577,9 @@
       </div>
 
       <div class="footer__info container">
-        <span class="footer__copy"> &#169; Export 4 Me. All rights reserved </span>
+        <span class="footer__copy">
+          &#169; Export 4 Me. All rights reserved
+        </span>
         <div class="footer__privacy">
           <a href="#">Terms & conditions</a>
           <a href="#">Privacy Policy</a>

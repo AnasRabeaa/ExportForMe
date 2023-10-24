@@ -1,3 +1,20 @@
+// Function to show the page selection popup
+function showPageSelectionPopup() {
+  var popup = document.getElementById('page-selection-popup');
+  popup.style.display = 'block';
+}
+
+// Function to close the popup
+function closePopup() {
+  var popup = document.getElementById('page-selection-popup');
+  popup.style.display = 'none';
+}
+
+// Show the page selection popup when the website is opened
+window.onload = function() {
+  showPageSelectionPopup();
+};
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{
     const header = document.getElementById('header')
